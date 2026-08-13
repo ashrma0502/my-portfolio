@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Ayush Sharma — Portfolio"
+description = "A high-performance, immersive personal portfolio for Ayush Sharma, showcasing frontend, data engineering, AI/ML, and full-stack projects with live GitHub-driven content."
+version = "1.0.0"
+id = "artifacts/ayush-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20065
+
+[services.development]
+run = "pnpm --filter @workspace/ayush-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ayush-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ayush-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20065"
+BASE_PATH = "/"
