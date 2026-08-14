@@ -13,8 +13,8 @@ export const Certificates = ({ certificates }) => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-            Certifications & <span className="text-gradient">Awards</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-gradient">
+            Certifications & Awards
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

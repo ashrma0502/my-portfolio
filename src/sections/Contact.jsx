@@ -47,8 +47,8 @@ export const Contact = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Get In <span className="text-gradient">Touch</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
+              Get In Touch
             </h2>
             <p className="text-xl text-white/60">Let's Build Something Extraordinary Together.</p>
           </div>

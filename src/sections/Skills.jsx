@@ -14,8 +14,8 @@ export const Skills = () => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-            Technical <span className="text-gradient">Skills</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-gradient">
+            Technical Skills
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

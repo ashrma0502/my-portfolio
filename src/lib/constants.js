@@ -11,18 +11,31 @@ export const EXPERTISE = [
   "Python",
   "Frontend Engineering",
   "DBMS",
-  "Data Engineering"
+  "Data Engineering",
 ];
 
 export const SKILLS = [
-  { category: "Programming Languages", items: ["C", "Java", "Python", "HTML", "CSS", "JavaScript", "SQL"] },
-  { category: "Frameworks/Libraries", items: ["React", "Flask", "FastAPI", "Streamlit", "Tailwind CSS", "Bootstrap"] },
+  {
+    category: "Programming Languages",
+    items: ["C", "Java", "Python", "HTML", "CSS", "JavaScript", "SQL"],
+  },
+  {
+    category: "Frameworks/Libraries",
+    items: [
+      "React",
+      "Flask",
+      "FastAPI",
+      "Streamlit",
+      "Tailwind CSS",
+      "Bootstrap",
+    ],
+  },
   { category: "Databases", items: ["MySQL", "DuckDB"] },
 ];
 
 export const PROJECT_TYPES = {
-  personal:  { label: "Personal",  order: 1 },
-  college:   { label: "College",   order: 2 },
+  personal: { label: "Personal", order: 1 },
+  college: { label: "College", order: 2 },
   hackathon: { label: "Hackathon", order: 3 },
 };
 
@@ -32,6 +45,7 @@ export const EDUCATION = [
     degree: "B.Tech, CSE",
     specialization: "Specialization in AI & ML",
     institution: "GLA University, Greater Noida",
-    description: "Developing a strong foundation in computer science principles while specializing in cutting-edge artificial intelligence and machine learning technologies."
-  }
+    description:
+      "Developing a strong foundation in computer science principles while specializing in cutting-edge artificial intelligence and machine learning technologies.",
+  },
 ];

@@ -37,8 +37,8 @@ export const Projects = ({ projects }) => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-            Selected <span className="text-gradient">Projects</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-gradient">
+            Selected Projects
           </h2>
 
           <div className="flex flex-wrap justify-center gap-4 mb-16">

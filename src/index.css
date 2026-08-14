@@ -6,20 +6,13 @@
   html, body {
     @apply bg-background text-white m-0 p-0 overflow-x-hidden;
     cursor: none; /* For custom cursor */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
 
-  /* Custom scrollbar */
+  /* Hide scrollbar for Chrome, Safari and Opera */
   ::-webkit-scrollbar {
-    width: 8px;
-  }
-  ::-webkit-scrollbar-track {
-    @apply bg-background;
-  }
-  ::-webkit-scrollbar-thumb {
-    @apply bg-primary rounded-full;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-primary-light;
+    display: none;
   }
 }
 

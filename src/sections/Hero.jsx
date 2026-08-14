@@ -25,8 +25,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
-            Hello, I'm <span className="text-gradient">Ayush Sharma</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-gradient">
+            Hello, I'm Ayush Sharma
           </h1>
         </motion.div>
 

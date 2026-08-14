@@ -12,8 +12,8 @@ export const About = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-            About <span className="text-gradient">Me</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-gradient">
+            About Me
           </h2>
           
           <div className="glass-card rounded-3xl p-8 md:p-12 mb-16 relative overflow-hidden group">

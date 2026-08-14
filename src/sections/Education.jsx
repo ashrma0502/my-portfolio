@@ -13,8 +13,8 @@ export const Education = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-            My <span className="text-gradient">Education</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-gradient">
+            My Education
           </h2>
 
           <div className="relative border-l border-white/20 pl-8 ml-4 md:ml-0 md:pl-0 md:border-l-0">
